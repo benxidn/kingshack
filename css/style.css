@@ -1,5 +1,6 @@
 html, body {
   margin: 0;
+  user-select: none;
 }
 body {
   width: 100%;
@@ -33,9 +34,6 @@ header > h1 {
   background: #ff0000;
   color: #fff;
 }
-.btn-yt:hover {
-  background: #ff8686;
-}
 .content {
   width: 84%;
   margin: 8%;
@@ -58,7 +56,7 @@ header > h1 {
   font-size: 14px;
   text-align: justify;
 }
-.btn-unduh,
+.btn-wa,
 .btn-order {
   margin: 0;
   margin-bottom: 10px;
@@ -68,19 +66,17 @@ header > h1 {
   padding: 10px 15px;
   font-size: 13px;
   font-weight: bold;
-  background: #009bff;
+  background: #00c95b;
   color: #fff;
 }
-.btn-unduh:hover {
-  background: #83ceff;
-}
 .btn-order {
-  background: #00c95b;
-  width: auto;
+  background: #ffa500;
   margin-bottom: 20px;
 }
+.btn-yt:hover,
+.btn-wa:hover,
 .btn-order:hover {
-  background: #7cffb7;
+ opacity: 0.5;
 }
 .content > h4 {
   margin: 10px 0;
